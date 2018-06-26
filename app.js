@@ -12,12 +12,9 @@ app.set('view engine', 'ejs');
 function afficheprenom(res)
 
 {
-
    var prenom = {prenom:"Idriss"};
-
    res.render('index', 
     prenom)
-
 }
 
 
